@@ -37,14 +37,13 @@ If you have any questions, please contact:
 
 Alina Zare  
 Electrical and Computer Engineering  
-University of Missouri  
-327 Engineering Building West  
-Columbia, MO 65211  
-zarea@missouri.edu  
+University of Florida    
+azare@ufl.edu  
+
 
 
 This code uses QPC: Quadratic Programming in C (http://sigpromu.org/quadprog/index.html).    The Quadratic Programming implementation can be downloaded here: http://sigpromu.org/quadprog/register.php?target=/quadprog/download.php and is free for academic/non-commercial use.  If this code is used in any publications, the software must be referenced.  
 
 
-% This product is Copyright (c) 2013 
+% This product is Copyright (c) 2018 
 % All rights reserved.
