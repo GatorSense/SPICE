@@ -96,6 +96,7 @@ P = ones(N,M)*(1/M);
 lambda = N*parameters.u/((M-1)*(1-parameters.u));
 Im = eye(M);
 I1 = ones([M,1]);
+%input('Press enter to go into the while loop: ')
 while( change > parameters.changeThresh && iteration < parameters.iterationCap)
     
     iteration = iteration + 1;
@@ -106,6 +107,8 @@ while( change > parameters.changeThresh && iteration < parameters.iterationCap)
     %Given P minimize Endmembers
     endmembersPrev = endmembers;
     endmembers = ((P'*P + lambda*(Im - (I1*I1')/M))\(P'*X'))';
+    
+    %input('Check endmember definition.')
     
     %Prune Endmembers below pruning threshold
     pruneFlag = 0;
